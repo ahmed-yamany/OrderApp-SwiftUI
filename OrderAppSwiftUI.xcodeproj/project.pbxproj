@@ -19,6 +19,7 @@
 		731CE5DF29262F380061B47F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CE5DE29262F380061B47F /* OrderView.swift */; };
 		731CE5E2292632C60061B47F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CE5E1292632C60061B47F /* ItemCell.swift */; };
 		731CE5E4292637BF0061B47F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CE5E3292637BF0061B47F /* ItemView.swift */; };
+		731CE5E6292647810061B47F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CE5E5292647810061B47F /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		731CE5DE29262F380061B47F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		731CE5E1292632C60061B47F /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		731CE5E3292637BF0061B47F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		731CE5E5292647810061B47F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				731CE5DC29262F080061B47F /* MenuView.swift */,
 				731CE5DE29262F380061B47F /* OrderView.swift */,
 				731CE5E3292637BF0061B47F /* ItemView.swift */,
+				731CE5E5292647810061B47F /* CheckoutView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				731CE5E2292632C60061B47F /* ItemCell.swift in Sources */,
 				731CE5D429262E060061B47F /* Menu.swift in Sources */,
+				731CE5E6292647810061B47F /* CheckoutView.swift in Sources */,
 				731CE5DD29262F080061B47F /* MenuView.swift in Sources */,
 				731CE5C529262CB10061B47F /* MainTabView.swift in Sources */,
 				731CE5E4292637BF0061B47F /* ItemView.swift in Sources */,

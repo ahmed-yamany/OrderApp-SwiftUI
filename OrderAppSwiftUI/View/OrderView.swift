@@ -16,20 +16,29 @@ struct OrderView: View {
                     ForEach(order.items) { item in
                         Text(item.name)
                     }
+                    .onDelete(perform: deleteItems)
                 }
                 
                 Section{
                     NavigationLink {
-                        Text("Hello World!")
+                        CheckoutView()
                     } label: {
                         Text("Place Order")
                     }
 
                 }
+                .disabled(order.items.isEmpty)
             }
             .navigationTitle("Order")
             .listStyle(.insetGrouped)
+            .toolbar {
+                EditButton()
+            }
         }
+    }
+    
+    private func deleteItems(at offsets: IndexSet){
+        order.items.remove(atOffsets: offsets)
     }
 }
 

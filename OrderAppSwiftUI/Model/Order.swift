@@ -10,7 +10,7 @@ import SwiftUI
 
 class Order: ObservableObject {
 
-    @Published var items: [MenuItem] = [MenuItem.example]
+    @Published var items: [MenuItem] = []
 
     var total: Int {
         if items.count > 0 {
